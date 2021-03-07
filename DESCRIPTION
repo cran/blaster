@@ -1,8 +1,8 @@
 Package: blaster
 Type: Package
 Title: Native R Implementation of an Efficient BLAST-Like Algorithm
-Version: 1.0
-Date: 2021-01-25
+Version: 1.0.3
+Date: 2021-03-07
 Authors@R: c(person("Manu", "Tamminen",
              email = "mavatam@utu.fi",
              role = c("aut", "cre"),
@@ -26,9 +26,9 @@ SystemRequirements: C++14
 RoxygenNote: 7.1.1
 URL: https://github.com/manutamminen/blaster
 NeedsCompilation: yes
-Packaged: 2021-02-06 10:50:13 UTC; mavatam
+Packaged: 2021-03-07 05:26:18 UTC; mavatam
 Author: Manu Tamminen [aut, cre] (<https://orcid.org/0000-0001-5891-7653>),
   Timothy Julian [aut] (<https://orcid.org/0000-0003-1000-0306>),
   Steven Schmid [aut]
 Repository: CRAN
-Date/Publication: 2021-02-10 16:20:06 UTC
+Date/Publication: 2021-03-07 17:20:06 UTC
