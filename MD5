@@ -1,9 +1,9 @@
-46a935f46ec7c80870d862c6f9e4de30 *DESCRIPTION
-471fcccc9447a85bfa1715ba8ce6e921 *LICENSE
+cfe9549840ed88f7cc78f0ef53beb1e0 *DESCRIPTION
+029445b51b6365f84dc04137f3a5d60a *LICENSE
 bde282ff1b9fb96430612ed87e2519f2 *NAMESPACE
 a63328f67ceab86306141bb7c89fb00c *R/RcppExports.R
 ed756f67e438fb147c6bd2af88eebe40 *R/blaster.R
-5e2d4160e241c9ec02b99ba72220b7f5 *README.md
+a0963e4a301b7af598168b2e54a68619 *README.md
 849fe322fb71b7a0ef1b8727809a7326 *inst/extdata/db.fasta
 2a9cff9713ed6be9d1ccaadd2901ca5d *inst/extdata/prot.fasta
 22bcac7435e3a09e69759a9862203c1b *inst/extdata/query.fasta
@@ -13,7 +13,7 @@ ed756f67e438fb147c6bd2af88eebe40 *R/blaster.R
 c4a254e119f3e17057b3e43a1bfd9784 *src/Alignment/BandedAlign.h
 436a7a324f3e01b6d21f0c885d535313 *src/Alignment/Cigar.h
 ba3ecca166a8ac828e43d92c6bf318ad *src/Alignment/Common.h
-b9c93f1b69e7b27cc42e195a48fec0d4 *src/Alignment/ExtendAlign.h
+94d0c69a7b22b1d3e5e1bb9dc642f74b *src/Alignment/ExtendAlign.h
 d1db7eff14da1246712d88b5d014a284 *src/Alignment/SegmentPair.h
 5cd06956b9e52baf951286f32dea5377 *src/Alnout/Writer.h
 e9c30a2ba513b9cb8bc22fda47805ea2 *src/Alphabet.h
@@ -33,7 +33,7 @@ addffb3650542a53cd2cf23de6362aba *src/FASTA/Reader.h
 063340f5de1437151c49510afcef17c2 *src/FASTQ/QScore.h
 893ab4c63c6769de9f9b9b4fd4cae7a2 *src/FASTQ/Reader.h
 51c6514d0e4323fd5e5ae9b40822e5a2 *src/FASTQ/Writer.h
-74a7c3fd1743931a59d5521734b3e321 *src/FileFormat.h
+ee52e616d1f2107c25c2e63a268a5d13 *src/FileFormat.h
 5f6cabf4e750bee5d3e0c8f12a6c2fa1 *src/PairedEnd/Merger.h
 12e9492e8a19992a90d7271f28257ac9 *src/PairedEnd/Reader.h
 4342b45516aacc2cab5a20fd45dc15f5 *src/RcppExports.cpp

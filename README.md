@@ -1,22 +1,27 @@
 
   <!-- badges: start -->
-  [![R-CMD-check](https://github.com/manutamminen/blaster/workflows/R-CMD-check/badge.svg)](https://github.com/manutamminen/blaster/actions)
+  [![R-CMD-check](https://github.com/tamminenlab/blaster/workflows/R-CMD-check/badge.svg)](https://github.com/tamminenlab/blaster/actions)
   [![CRAN status](https://www.r-pkg.org/badges/version/blaster)](https://CRAN.R-project.org/package=blaster)
   <!-- badges: end -->
 
 # Blaster
 
-Blaster implements an efficient BLAST-like sequence comparison algorithm, written in C++11 and using native R datatypes. Blaster is light-weight, fast and dependency-free. The code base of Blaster is adapted from [nsearch](https://github.com/stevschmid/nsearch).
+Blaster implements an efficient BLAST-like sequence comparison algorithm, written in C++11 and using native R datatypes. Blaster is light-weight, fast and dependency-free. The code base of Blaster is adapted from [nsearch](https://github.com/stevschmid/nsearch). An implementation of nsearch for Python is available at [npysearch](https://github.com/tamminenlab/npysearch).
 
 ## Installation
 
-```R
-# Install release version from CRAN
-install.packages("blaster")
+### From [Conda](https://anaconda.org/conda-forge/r-blaster)
 
-# Install development version from GitHub
-devtools::install_github("manutamminen/blaster")
+```sh
+conda install -c conda-forge r-blaster 
 ```
+
+### Development version from GitHub
+
+```R
+devtools::install_github("tamminenlab/blaster")
+```
+
 
 ## Examples
 
@@ -47,3 +52,10 @@ query <- read_fasta("query.fasta", "GAGACTT")
 
 ```
 
+## Tested on
+
+- linux\_64, r-base >= 4.0, r-cpp >= 1.0.5
+- osx\_64, r-base >= 4.0, r-cpp >= 1.0.5
+- win\_64, r-base >= 4.0, r-cpp >= 1.0.5
+
+Details available at https://anaconda.org/conda-forge/r-blaster/files.
